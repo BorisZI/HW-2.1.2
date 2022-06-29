@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         greenLightView.layer.cornerRadius = greenLightView.frame.width / 2
     }
         
-    @IBAction func buttonPress() {
+    @IBAction func buttonPressed() {
         if buttonStart.currentTitle == "START" {
             buttonStart.setTitle("NEXT", for: .normal)
         }
